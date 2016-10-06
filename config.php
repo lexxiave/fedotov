@@ -8,7 +8,7 @@
       public $dbhost = 'localhost';
       public $dbname = 'db200';  // Database name
       public $dbuser = 'root';
-      public $dbpass = '';       // Password
+      public $dbpass = '';       // MySQL Password
       public $dbcharset = 'utf8';
       
       // System settings
@@ -16,7 +16,7 @@
       public $author = 'Fedotov V.V.';
       public $description = 'Forms';
       public $lang = 'EN';
-      protected $template = 'templates/template.php';
+      protected $template = 'templates/template_auth.php';
       
       // Custom settings
       public $email_templates = array('signup','evnamegl','vipreserv');
